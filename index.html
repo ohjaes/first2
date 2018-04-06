@@ -8,139 +8,287 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resume - Start Bootstrap Theme</title>
+    <title>Creative - Start Bootstrap Theme</title>
 
-   <!-- Bootstrap core CSS -->
-   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-   <!-- Custom fonts for this template -->
-   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-   <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
-   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-   <!-- Custom styles for this template -->
-   <link href="css/resume.min.css" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
 
     <style>
-      .fsize{
-        font-size: 44.9px;
-        
+      .ft{
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       }
-      .f2size{
-        font-size: 55px;
-      }
+    
     </style>
 
   </head>
 
   <body id="page-top">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Start Bootstrap</span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="..\car.jpg" alt="">
-        </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#about">COMMENT</a>
-              </li>
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
             <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#intro">INTRODUCE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">SKILLS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#future">EFFECT</a>
-          </li>
-        </ul>
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
-    <div class="container-fluid p-0">
-
-
-        <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-            <div class="my-auto">
-              <h3 class="mb-0"> ※사실 멋쟁이 사자처럼 지원 당시 웹서비스라는<br>
-                                것을 정확히 몰라서 어플이라고 생각하고<br>
-                                아이디어를 생각해봤습니다.ㅠㅠ<br>
-                                감안하고 봐주시면 감사하겠습니다.
-              </h3>
-            </div>
-          </section>
-
-        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="intro">
-            <div class="my-auto">
-                <h2 class="mb-5">이름  : 오재훈</h2><br>
-                <h2 class="mb-5">학과  : 통계학과</h2><br>
-                <h2 class="mb-5">서비스: 네비게이션</h2><br>
-            </div>
-        </section>
-
-      
-
-        
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
-
-
-          <div class="subheading mb-3"></div>
-          <ul class="fa-ul mb-0">
-            <li class="fsize">
-              <i class="fa-li fa fa-check"></i>
-             자동차 신호등의 점등 시간을 알려준다</li>
-            <li class="fsize">
-              <i class="fa-li fa fa-check"></i>
-              노란불의 점등시간은 소리로 알려준다.</li>
-            <li class="fsize">
-              <i class="fa-li fa fa-check"></i>
-              초록불이 점등되면 초록불이 점등되었다고 알려준다</li>
-          </ul>
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong></strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-faded mb-5"></p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">NAVIGATION</a>
+          </div>
         </div>
-      </section>
+      </div>
+    </header>
 
-      
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="future">
-        <div class="my-auto">
-          <h2 class="mb-5, f2size">EFFECT</h2>
-          <ul class="fa-ul mb-0, fsize">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              교차로에서 꼬리물기의 빈도수가 줄어들 것이다.</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              교차로에서 운전자의 순간적 판단에 의한 사고를 줄일 수 있을 것이다.</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              교차로진입 전 감속하는 운전자들의 수가 많아질 것이다.</li>
-            
-          </ul>
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">ABOUT</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4"></p>
+            <div class="col-lg-8 mx-auto text-center ft">
+                <ul>
+                  <li>              
+                    신호등의 남은 점등시간을 알려준다.
+                  </li>
+                  <li>
+                    남은 시간이 5초 이하일 때 시간을 읽어준다.
+                  </li>
+                  <li>
+                    나머지 기능은 일반적인 네비게이션과 같다.
+                  </li>
+                </ul>
+              </div>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      
+    
 
-    </div>
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">At Your Service</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Sturdy Templates</h3>
+              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Ready to Ship</h3>
+              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Up to Date</h3>
+              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Made with Love</h3>
+              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-0" id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">COMMENT</h2>
+        <h3>사실은 웹서비스가 뭔지 정확히 모르는 상태에서 생각한 내용입니다. 웹서비스보다 앱에 가까운 생각입니다만 감안하고 읽어주셨으면 감사하겠습니다.</h3>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="my-4">
+            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+            <p>010-8707-1837</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">iskj1837@naver.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="C:\Users\user\Downloads\startbootstrap-resume-gh-pages (1)\startbootstrap-resume-gh-pages\vendor\jquery\jquery.min.js"></script>
-    <script src="C:\Users\user\Downloads\startbootstrap-resume-gh-pages (1)\startbootstrap-resume-gh-pages\vendor\bootstrap\js\bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="C:\Users\user\Downloads\startbootstrap-resume-gh-pages (1)\startbootstrap-resume-gh-pages\vendor\jquery-easing\jquery.easing.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="C:\Users\user\Downloads\startbootstrap-resume-gh-pages (1)\startbootstrap-resume-gh-pages\js\resume.min.js"></script>
+    <script src="js/creative.min.js"></script>
 
   </body>
 
